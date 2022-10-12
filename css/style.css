@@ -1,0 +1,154 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 98%;
+    height: 20vh;
+    min-height: 160px;
+    padding: 20px;
+}
+
+.bi0 {
+    background-image: url("/img/0.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0;
+    background-size: 100%;
+
+}
+
+.bi1 {
+    background-image: url("/img/1.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0;
+    background-size: 100%;
+}
+
+.bi2 {
+    background-image: url("/img/2.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0;
+    background-size: 100%;
+}
+
+.quote {
+    min-height: 32px;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 20%;
+    width: 100%;
+
+}
+
+.author {
+    min-height: 20px;
+    color: yellowgreen;
+    font-size: 25px;
+    width: 100%;
+}
+
+
+
+.loginForm :focus {
+    outline: none;
+}
+
+.weather-icon {
+    font-size: 44px;
+
+}
+
+
+.weather {
+    width: 98%;
+    height: 20%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    color: yellow;
+    text-align: right;
+}
+
+#clock {
+    font-size: 80px;
+}
+
+.loginForm {
+    width: 40%;
+
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    background-color: transparent;
+    border-color: #CCC;
+    color: white;
+
+    box-sizing: border-box;
+}
+
+.loginForm ::placeholder {
+    color: white;
+}
+
+.button {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    background-color: transparent;
+    border-color: #CCC;
+    color: white;
+
+    box-sizing: border-box;
+}
+
+#login-form {
+    height: 20%;
+    margin-bottom: 5%;
+}
+
+#greeting {
+
+    height: 20%;
+    margin-bottom: 3%;
+
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    background-color: transparent;
+    border-color: #CCC;
+    color: white;
+
+    box-sizing: border-box;
+
+}
+
+#todoForm {
+    height: 20%;
+    width: 580px;
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 0.025em;
+    background-color: transparent;
+    border-color: #CCC;
+    color: white;
+
+    box-sizing: border-box;
+}
+
+#todo-list {
+    margin-right: 5%;
+    text-align: right;
+
+}
